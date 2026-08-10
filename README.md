@@ -1,8 +1,8 @@
-# # Garage_plus
+#  Garage_plus
 
 Garage_plus is a SaaS concept designed to help automotive garages manage their daily operations more efficiently.
 
-This project is a responsive landing page developed as part of my web development learning journey at **Zindua Coding School**.
+This project is a responsive landing page developed as part of my web development learning journey at ***Zindua Coding School***.
 
 The current version focuses on understanding **HTML5 semantic structure, navigation, forms, embedded media, Git version control, GitHub and GitHub Pages deployment**.
 
@@ -13,8 +13,7 @@ Garage_plus aims to provide modern automotive garages with digital tools for man
 The landing page provides a professional web presence for the product and introduces visitors to the problem Garage_plus aims to solve.
 
 ## Current Features
-
-* Semantic HTML5 structure
+*Semantic HTML5 structure
 * Navigation menu
 * Hero section
 * About section
@@ -38,7 +37,7 @@ The landing page provides a professional web presence for the product and introd
 * GitHub
 * GitHub Pages
 
-## Project Structure
+### Project Structure
 
 ```text
 garage-plus/
@@ -49,7 +48,7 @@ garage-plus/
 └── media/
 ```
 
-## HTML5 Concepts Demonstrated
+### HTML5 Concepts Demonstrated
 
 The project uses semantic HTML5 elements to create a meaningful document structure.
 
@@ -80,7 +79,7 @@ The contact form uses built-in HTML5 validation features such as:
 
 This allows the browser to perform basic validation without JavaScript.
 
-## Deployment
+### Installation setup
 
 The project is deployed using **GitHub Pages**.
 
