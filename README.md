@@ -82,7 +82,7 @@ This allows the browser to perform basic validation without JavaScript.
 
 ### How the project looks like
 This is what the Garage looks like
-![A spacious vintage car garage workshop with multiple classic automobiles in various stages of restoration, including a blue Volkswagen Beetle in the foreground and red sports cars. The industrial space features exposed brick walls, large windows, hanging pendant lights, and a red umbrella overhead. A vintage red and white Selnia motor oil sign hangs prominently on the wall, evoking a nostalgic yet professional automotive service environment](alex-suprun-AHnhdjyTNGM-unsplash.jpg)
+![A spacious vintage car garage workshop with multiple classic automobiles in various stages of restoration, including a blue Volkswagen Beetle in the foreground and red sports cars. The industrial space features exposed brick walls, large windows, hanging pendant lights, and a red umbrella overhead. A vintage red and white Selnia motor oil sign hangs prominently on the wall, evoking a nostalgic yet professional automotive service environment][def]
 
 ### Installation setup
 
@@ -138,3 +138,6 @@ This project is helping me develop practical skills in:
 **Leon Kariuki**
 
 Garage_plus — Building smarter tools for modern automotive garages.
+
+
+[def]: alex-suprun-AHnhdjyTNGM-unsplash.jpg
