@@ -13,7 +13,8 @@ Garage_plus aims to provide modern automotive garages with digital tools for man
 The landing page provides a professional web presence for the product and introduces visitors to the problem Garage_plus aims to solve.
 
 ## Current Features
-*Semantic HTML5 structure
+
+* Semantic HTML5 structure
 * Navigation menu
 * Hero section
 * About section
@@ -79,6 +80,10 @@ The contact form uses built-in HTML5 validation features such as:
 
 This allows the browser to perform basic validation without JavaScript.
 
+### How the project looks like
+This is what the Garage looks like
+![A spacious vintage car garage workshop with multiple classic automobiles in various stages of restoration, including a blue Volkswagen Beetle in the foreground and red sports cars. The industrial space features exposed brick walls, large windows, hanging pendant lights, and a red umbrella overhead. A vintage red and white Selnia motor oil sign hangs prominently on the wall, evoking a nostalgic yet professional automotive service environment](alex-suprun-AHnhdjyTNGM-unsplash.jpg)
+
 ### Installation setup
 
 The project is deployed using **GitHub Pages**.
@@ -102,7 +107,7 @@ git commit -m "Update project documentation"
 git push
 ```
 
-## Future Improvements
+### Future Improvements
 
 As the project progresses, Garage_plus will be developed further with:
 
@@ -116,7 +121,7 @@ As the project progresses, Garage_plus will be developed further with:
 * User authentication
 * Garage management functionality
 
-## Learning Objectives
+### Learning Objectives
 
 This project is helping me develop practical skills in:
 
@@ -128,7 +133,7 @@ This project is helping me develop practical skills in:
 * Static website deployment
 * Project documentation
 
-## Author
+### Author
 
 **Leon Kariuki**
 
