@@ -1,4 +1,4 @@
-#  Garage_plus
+#  Gosa_Automation
 
 Garage_plus is a SaaS concept designed to help automotive garages manage their daily operations more efficiently.
 
