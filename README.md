@@ -1,6 +1,6 @@
 #  Gosa_Automation
 
-Garage_plus is a SaaS concept designed to help automotive garages manage their daily operations more efficiently.
+Gosa_Automation is a SaaS concept designed to help automotive garages manage their daily operations more efficiently.
 
 This project is a responsive landing page developed as part of my web development learning journey at ***Zindua Coding School***.
 
@@ -90,9 +90,9 @@ The project is deployed using **GitHub Pages**.
 
 Live Website:
 
-**https://leonkariukii.github.io/garage-plus/**
+**https://leonkariukii.github.io/GOSA_Automation/**
 
-> Note: The URL above assumes the repository is named `garage-plus` and the GitHub username is `leonkariukii.
+> Note: The URL above assumes the repository is named `GOSA_Automation` and the GitHub username is `leonkariukii.
 
 ## Version Control
 
@@ -109,7 +109,7 @@ git push
 
 ### Future Improvements
 
-As the project progresses, Garage_plus will be developed further with:
+As the project progresses, GOSA_Auto will be developed further with:
 
 * CSS styling
 * Responsive design
@@ -140,4 +140,4 @@ This project is helping me develop practical skills in:
 Garage_plus — Building smarter tools for modern automotive garages.
 
 
-[def]: alex-suprun-AHnhdjyTNGM-unsplash-2.jpg
+
