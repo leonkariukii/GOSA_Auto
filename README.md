@@ -1,6 +1,6 @@
-#  Gosa_Automation
+#  Gosa_Auto
 
-Gosa_Automation is a SaaS concept designed to help automotive garages manage their daily operations more efficiently.
+Gosa_Auto is a SaaS concept designed to help automotive garages manage their daily operations more efficiently.
 
 This project is a responsive landing page developed as part of my web development learning journey at ***Zindua Coding School***.
 
@@ -8,7 +8,7 @@ The current version focuses on understanding **HTML5 semantic structure, navigat
 
 ## Project Overview
 
-Garage_plus aims to provide modern automotive garages with digital tools for managing their operations, customers and vehicle service information.
+GOSA_Auto aims to provide modern automotive garages with digital tools for managing their operations, customers and vehicle service information.
 
 The landing page provides a professional web presence for the product and introduces visitors to the problem Garage_plus aims to solve.
 
@@ -137,7 +137,7 @@ This project is helping me develop practical skills in:
 
 **Leon Kariuki**
 
-Garage_plus — Building smarter tools for modern automotive garages.
+GOSA_Auto— Building smarter tools for modern automotive garages.
 
 
 
