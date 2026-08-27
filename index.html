@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,25 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Garage_plus is a smart garage management platform for modern automotive workshops.">
+    <meta name="theme-color" content="#1f2937">
 
-    <title>Garage_plus | Smart Garage Management</title>
+    <title>GOSA_Auto | Smart Garage Management</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Skip Link (Accessibility) -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
     <!-- Header and Navigation -->
-    <header>
-        <nav aria-label="Main Navigation">
+    <header class="site-header" id="navbar">
+        <nav class="main-nav" aria-label="Main Navigation">
 
-            <a href="#home">Garage_plus</a>
+            <a class="brand" href="#home">GOSA_Auto</a>
 
-            <ul>
+            <ul class="nav-list">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#team">Team</a></li>
                 <li><a href="#features">Features</a></li>
                 <li><a href="#how-it-works">How It Works</a></li>
-                <li><a href="#media">Media</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
 
@@ -33,25 +36,25 @@
 
 
     <!-- Main Page Content -->
-    <main>
+    <main id="main-content">
 
         <!-- Hero Section -->
-        <section id="home">
+        <section class="hero" id="home">
 
-            <b><h1>Manage Your Garage Smarter with Garage_plus</h1></b>
+            <h1>Manage Your Garage Smarter with Garage_plus</h1>
 
-            <p>
+            <p class="hero-text">
                 Garage_plus helps automotive workshops manage customers,
                 vehicles, job cards and daily operations from one platform.
             </p>
 
-            <a href="#contact">Get Started</a>
+            <a class="btn btn-primary" href="#contact">Get Started</a>
 
         </section>
 
 
         <!-- About Section -->
-        <section id="about">
+        <section class="about" id="about">
 
             <h2>About Garage_plus</h2>
 
@@ -70,57 +73,55 @@
 
 
         <!-- Features Section -->
-        <section id="features">
+        <section class="features" id="features">
 
             <h2>Our Features</h2>
 
-            <article>
-                <h3>Job Card Management</h3>
-                <p>
-                    Create and manage digital job cards for vehicles
-                    entering the workshop.
-                </p>
-            </article>
+            <div class="features-grid">
 
-            <article>
-                <h3>Customer Management</h3>
-                <p>
-                    Keep customer and vehicle information organized
-                    in one place.
-                </p>
-            </article>
+                <article class="feature-card">
+                    <h3>Job Card Management</h3>
+                    <p>
+                        Create and manage digital job cards for vehicles
+                        entering the workshop.
+                    </p>
+                </article>
 
-            <article>
-                <h3>Service History</h3>
-                <p>
-                    Keep track of previous vehicle services and repairs.
-                </p>
-            </article>
+                <article class="feature-card">
+                    <h3>Customer Management</h3>
+                    <p>
+                        Keep customer and vehicle information organized
+                        in one place.
+                    </p>
+                </article>
+
+                <article class="feature-card">
+                    <h3>Service History</h3>
+                    <p>
+                        Keep track of previous vehicle services and repairs.
+                    </p>
+                </article>
+
+            </div>
 
         </section>
 
 
         <!-- How It Works Section -->
-        <section id="how-it-works">
+        <section class="how-it-works" id="how-it-works">
 
             <h2>How Garage_plus Works</h2>
 
-           
+            <ol class="steps">
 
-           <ol>
-                <li>
+                <li class="step">
                     <h3>Register the Customer</h3>
                     <p>
                         Record the customer's details and vehicle information.
                     </p>
                 </li>
-           </ol
-        
 
-
-            
-                    <ol>
-                <li>    
+                <li class="step">
                     <h3>Create a Job Card</h3>
                     <p>
                         Create a job card describing the vehicle's service
@@ -128,48 +129,51 @@
                     </p>
                 </li>
 
-                <li>
+                <li class="step">
                     <h3>Complete the Service</h3>
                     <p>
                         Track the work and keep the service record
                         for future reference.
                     </p>
                 </li>
+
             </ol>
 
         </section>
 
 
         <!-- Team Section -->
-        <section id="team">
+        <section class="team" id="team">
 
             <h2>Meet the Team</h2>
 
-            <article>
-                <h3>Leon Kariuki</h3>
-                <p>Founder & Software Developer</p>
+            <div class="team-grid">
 
-                <p>
-                    Building technology to help automotive businesses
-                    operate more efficiently.
-                </p>
-            </article>
+                <article class="team-member">
+                    <h3>Leon Kariuki</h3>
+                    <p class="team-role">Founder & Software Developer</p>
+                    <p>
+                        Building technology to help automotive businesses
+                        operate more efficiently.
+                    </p>
+                </article>
 
-            <article>
-                <h3>Garage Operations Team</h3>
-                <p>Automotive Operations</p>
+                <article class="team-member">
+                    <h3>Garage Operations Team</h3>
+                    <p class="team-role">Automotive Operations</p>
+                    <p>
+                        Helping us understand the real challenges faced
+                        by modern garages.
+                    </p>
+                </article>
 
-                <p>
-                    Helping us understand the real challenges faced
-                    by modern garages.
-                </p>
-            </article>
+            </div>
 
         </section>
 
 
         <!-- Embedded Media Section -->
-        <section id="media">
+        <section class="media" id="media">
 
             <h2>See Garage_plus in Action</h2>
 
@@ -178,19 +182,20 @@
                 modern automotive workshops.
             </p>
 
-            <iframe
-                width="560"
-                height="315"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-                title="Garage_plus product demonstration"
-                allowfullscreen>
-            </iframe>
+            <div class="video-wrapper">
+                <iframe
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                    title="Garage_plus product demonstration"
+                    loading="lazy"
+                    allowfullscreen>
+                </iframe>
+            </div>
 
         </section>
 
 
         <!-- Contact Section -->
-        <section id="contact">
+        <section class="contact" id="contact">
 
             <h2>Contact Garage_plus</h2>
 
@@ -198,46 +203,49 @@
                 Interested in Garage_plus? Send us a message.
             </p>
 
-            <form action="#" method="post">
+            <form class="contact-form" action="#" method="post">
 
-                <p>
+                <div class="form-group">
                     <label for="name">Full Name:</label>
                     <input
                         type="text"
                         id="name"
                         name="name"
+                        autocomplete="name"
                         required>
-                </p>
+                </div>
 
-                <p>
+                <div class="form-group">
                     <label for="email">Email Address:</label>
                     <input
                         type="email"
                         id="email"
                         name="email"
+                        autocomplete="email"
                         required>
-                </p>
+                </div>
 
-                <p>
+                <div class="form-group">
                     <label for="phone">Phone Number:</label>
                     <input
                         type="tel"
                         id="phone"
                         name="phone"
+                        autocomplete="tel"
                         required>
-                </p>
+                </div>
 
-                <p>
+                <div class="form-group">
                     <label for="message">Message:</label>
                     <textarea
                         id="message"
                         name="message"
                         rows="6"
-                        required
-                        minlength="10"></textarea>
-                </p>
+                        minlength="10"
+                        required></textarea>
+                </div>
 
-                <button type="submit">Send Message</button>
+                <button class="btn btn-primary" type="submit">Send Message</button>
 
             </form>
 
@@ -247,15 +255,16 @@
 
 
     <!-- Footer -->
-    <footer>
+    <footer class="site-footer">
 
-        <h2>Garage_plus</h2>
+        <div class="footer-brand">
+            <h2>Garage_plus</h2>
+            <p>
+                Smarter tools for modern automotive garages.
+            </p>
+        </div>
 
-        <p>
-            Smarter tools for modern automotive garages.
-        </p>
-
-        <nav aria-label="Footer Navigation">
+        <nav class="footer-nav" aria-label="Footer Navigation">
 
             <ul>
                 <li><a href="#home">Home</a></li>
@@ -266,35 +275,33 @@
 
         </nav>
 
-
-        <section>
+        <div class="social-links">
 
             <h3>Follow Us</h3>
 
             <ul>
                 <li>
-                    <a href="www.linkedin.com/in/linnka-motors-12288b381 target="_blank">
+                    <a href="https://www.linkedin.com/in/linnka-motors-12288b381" target="_blank" rel="noopener noreferrer">
                         LinkedIn
                     </a>
                 </li>
 
                 <li>
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                         Instagram
                     </a>
                 </li>
 
                 <li>
-                    <a href="https://www.facebook.com/" target="_blank">
+                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
                         Facebook
                     </a>
                 </li>
             </ul>
 
-        </section>
+        </div>
 
-
-        <p>
+        <p class="copyright">
             &copy; 2026 Garage_plus. All rights reserved.
         </p>
 
@@ -303,4 +310,3 @@
 </body>
 
 </html>
-```

@@ -1,143 +1,161 @@
-#  Garage_plus
+# 🔧 (GOSA_Auto)
 
-Garage_plus is a SaaS concept designed to help automotive garages manage their daily operations more efficiently.
+> Smarter tools for modern automotive garages.
 
-This project is a responsive landing page developed as part of my web development learning journey at ***Zindua Coding School***.
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-222?logo=github)](https://leonkariukii.github.io/Garage_plus/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-The current version focuses on understanding **HTML5 semantic structure, navigation, forms, embedded media, Git version control, GitHub and GitHub Pages deployment**.
+**GOSA_Auto** is a SaaS concept designed to help automotive garages manage customers, vehicles and daily workshop operations from a single platform.
+
+This repository contains the project's **marketing / landing page**, built as part of a web development learning journey at ***Zindua Coding School***. It focuses on **semantic HTML5, accessible markup, responsive CSS, forms, embedded media, and Git/GitHub workflows**.
+
+## 📖 Table of Contents
+
+* [Project Overview](#project-overview)
+* [Live Demo](#live-demo)
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Project Structure](#project-structure)
+* [Getting Started](#getting-started)
+* [Form Validation](#form-validation)
+* [Accessibility](#accessibility)
+* [Roadmap](#roadmap)
+* [Learning Objectives](#learning-objectives)
+* [Contributing](#contributing)
+* [License](#license)
+* [Author](#author)
 
 ## Project Overview
 
-Garage_plus aims to provide modern automotive garages with digital tools for managing their operations, customers and vehicle service information.
+GOSA_Auto aims to give modern automotive garages digital tools to manage their operations, customers and vehicle service information. This landing page provides a professional web presence for the product, introduces visitors to the problem Garage_plus solves, and explains how the platform works through a step-by-step walkthrough.
 
-The landing page provides a professional web presence for the product and introduces visitors to the problem Garage_plus aims to solve.
+## Live Demo
 
-## Current Features
+The project is deployed using **GitHub Pages**:
 
-* Semantic HTML5 structure
-* Navigation menu
-* Hero section
-* About section
+🔗 **[https://leonkariukii.github.io/Garage_plus/](https://leonkariukii.github.io/Garage_plus/)**
+
+## Features
+
+* Responsive, semantic HTML5 layout
+* Accessible skip-to-content link for keyboard/screen-reader users
+* Sticky navigation bar with in-page anchor links
+* Hero section with a clear call-to-action
+* About section describing the product
+* Features grid (Job Card Management, Customer Management, Service History)
+* "How It Works" step-by-step section
 * Team section
-* Features section
-* How It Works section
-* Embedded media
-* Contact form
-* HTML5 form validation
-* Social media links
-* Footer
-* Copyright information
-* Git version control
-* GitHub repository
-* GitHub Pages deployment
+* Embedded video demo (`<iframe>`)
+* Contact form with client-side HTML5 validation
+* Footer with quick links, social media links and copyright notice
 
-## Technologies Used
+## Tech Stack
 
-* HTML5
-* Git
-* GitHub
-* GitHub Pages
+* **HTML5** — semantic page structure
+* **CSS3** — layout, styling and responsive design
+* **Git & GitHub** — version control and collaboration
+* **GitHub Pages** — static site hosting/deployment
 
-### Project Structure
+## Project Structure
 
 ```text
-garage-plus/
+GOSA_Auto/
 │
-├── index.html
-├── README.md
-├── images/
-└── media/
+├── index.html    # Main landing page markup
+├── style.css     # Site styling and responsive rules
+├── README.md     # Project documentation
+└── LICENSE       # MIT license
 ```
 
 ### HTML5 Concepts Demonstrated
 
-The project uses semantic HTML5 elements to create a meaningful document structure.
+The project uses semantic HTML5 elements to create a meaningful document structure, including:
 
-Some of the elements used include:
-
-* `<header>`
-* `<nav>`
-* `<main>`
-* `<section>`
-* `<article>`
-* `<footer>`
-* `<form>`
-* `<label>`
-* `<input>`
-* `<textarea>`
-* `<button>`
-* `<iframe>`
+`<header>` · `<nav>` · `<main>` · `<section>` · `<article>` · `<footer>` · `<form>` · `<label>` · `<input>` · `<textarea>` · `<button>` · `<iframe>`
 
 The goal is to separate **content and structure** from presentation and behaviour.
+
+## Getting Started
+
+No build tools or dependencies are required — this is a static HTML/CSS site.
+
+1. **Clone the repository**
+
+   ```bash
+   git clone https://github.com/leonkariukii/Garage_plus.git
+   cd Garage_plus
+   ```
+
+2. **Open the site locally**
+
+   Simply open `index.html` in your browser, or serve it with a lightweight local server, e.g.:
+
+   ```bash
+   # Using VS Code's Live Server extension, or:
+   npx serve .
+   ```
 
 ## Form Validation
 
 The contact form uses built-in HTML5 validation features such as:
 
 * `required`
-* `type="email"`
+* `type="email"` / `type="tel"`
 * `minlength`
 
-This allows the browser to perform basic validation without JavaScript.
+This allows the browser to perform basic validation without any JavaScript.
 
-### How the project looks like
+## Accessibility
 
-![A spacious vintage car garage workshop with multiple classic automobiles in various stages of restoration, including a blue Volkswagen Beetle in the foreground and red sports cars. The industrial space features exposed brick walls, large windows, hanging pendant lights, and a red umbrella overhead. A vintage red and white Selnia motor oil sign hangs prominently on the wall, evoking a nostalgic yet professional automotive service environment][def]
+* A visually hidden **skip link** lets keyboard users jump straight to `#main-content`.
+* Navigation and footer landmarks use `aria-label` for clearer screen-reader context.
+* All external links (social media) use `target="_blank" rel="noopener noreferrer"` for security.
+* Form inputs are paired with explicit `<label>` elements and `autocomplete` attributes.
 
-### Installation setup
+## Roadmap
 
-The project is deployed using **GitHub Pages**.
+Planned improvements as the project evolves:
 
-Live Website:
+* [ ] Enhanced responsive design and mobile navigation
+* [ ] JavaScript interactivity (e.g. mobile menu toggle, form feedback)
+* [ ] Backend API integration
+* [ ] Database integration for customers, vehicles and job cards
+* [ ] User authentication
+* [ ] Full garage management functionality (job cards, invoicing, scheduling)
 
-**https://leonkariukii.github.io/garage-plus/**
+## Learning Objectives
 
-> Note: The URL above assumes the repository is named `garage-plus` and the GitHub username is `leonkariukii.
+This project has helped build practical skills in:
 
-## Version Control
-
-Git is used to track changes throughout the development of the project.
-
-Example workflow:
-
-```bash
-git status
-git add .
-git commit -m "Update project documentation"
-git push
-```
-
-### Future Improvements
-
-As the project progresses, Garage_plus will be developed further with:
-
-* CSS styling
-* Responsive design
-* Mobile-friendly navigation
-* JavaScript interactions
-* Improved form functionality
-* Backend API integration
-* Database integration
-* User authentication
-* Garage management functionality
-
-### Learning Objectives
-
-This project is helping me develop practical skills in:
-
-* Semantic HTML5
-* Web page structure
+* Semantic HTML5 and web page structure
+* Responsive CSS layout
 * Form creation and validation
-* Git version control
-* GitHub repository management
-* Static website deployment
+* Web accessibility fundamentals
+* Git version control and GitHub workflows
+* Static website deployment via GitHub Pages
 * Project documentation
 
-### Author
+## Contributing
+
+This is currently a personal learning project, but suggestions and feedback are welcome. To propose a change:
+
+```bash
+git checkout -b feature/your-feature-name
+git add .
+git commit -m "Describe your change"
+git push origin feature/your-feature-name
+```
+
+Then open a pull request describing your changes.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Author
 
 **Leon Kariuki**
 
-Garage_plus — Building smarter tools for modern automotive garages.
-
-
-[def]: alex-suprun-AHnhdjyTNGM-unsplash-2.jpg
+GOSA_Auto — Building smarter tools for modern automotive garages.
