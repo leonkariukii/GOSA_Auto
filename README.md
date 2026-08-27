@@ -1,6 +1,6 @@
 #  Gosa_Auto
 
-Gosa_Automation is a SaaS concept designed to help automotive garages manage their daily operations more efficiently.
+Gosa_Auto is a SaaS concept designed to help automotive garages manage their daily operations more efficiently.
 
 This repository contains the project's **marketing / landing page**, built as part of a web development learning journey at ***Zindua Coding School***. It focuses on **semantic HTML5, accessible markup, responsive CSS, forms, embedded media, and Git/GitHub workflows**.
 
