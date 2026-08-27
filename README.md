@@ -1,13 +1,6 @@
-# 🔧 (GOSA_Auto)
+#  Gosa_Auto
 
-> Smarter tools for modern automotive garages.
-
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-222?logo=github)](https://leonkariukii.github.io/Garage_plus/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-**GOSA_Auto** is a SaaS concept designed to help automotive garages manage customers, vehicles and daily workshop operations from a single platform.
+Gosa_Automation is a SaaS concept designed to help automotive garages manage their daily operations more efficiently.
 
 This repository contains the project's **marketing / landing page**, built as part of a web development learning journey at ***Zindua Coding School***. It focuses on **semantic HTML5, accessible markup, responsive CSS, forms, embedded media, and Git/GitHub workflows**.
 
@@ -129,33 +122,54 @@ Planned improvements as the project evolves:
 
 This project has helped build practical skills in:
 
-* Semantic HTML5 and web page structure
-* Responsive CSS layout
-* Form creation and validation
-* Web accessibility fundamentals
-* Git version control and GitHub workflows
-* Static website deployment via GitHub Pages
-* Project documentation
+**https://leonkariukii.github.io/GOSA_Automation/**
 
-## Contributing
+> Note: The URL above assumes the repository is named `GOSA_Automation` and the GitHub username is `leonkariukii.
 
-This is currently a personal learning project, but suggestions and feedback are welcome. To propose a change:
+## Version Control
+
+Git is used to track changes throughout the development of the project.
+
+Example workflow:
 
 ```bash
 git checkout -b feature/your-feature-name
 git add .
-git commit -m "Describe your change"
-git push origin feature/your-feature-name
+git commit -m "Update project documentation"
+git push
 ```
 
-Then open a pull request describing your changes.
+### Future Improvements
 
-## License
+As the project progresses, GOSA_Auto will be developed further with:
 
-This project is licensed under the [MIT License](LICENSE).
+* CSS styling
+* Responsive design
+* Mobile-friendly navigation
+* JavaScript interactions
+* Improved form functionality
+* Backend API integration
+* Database integration
+* User authentication
+* Garage management functionality
 
-## Author
+### Learning Objectives
+
+This project is helping me develop practical skills in:
+
+* Semantic HTML5
+* Web page structure
+* Form creation and validation
+* Git version control
+* GitHub repository management
+* Static website deployment
+* Project documentation
+
+### Author
 
 **Leon Kariuki**
 
 GOSA_Auto — Building smarter tools for modern automotive garages.
+
+
+
