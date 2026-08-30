@@ -21,12 +21,8 @@ This repository contains the project's **marketing / landing page**, built as pa
 * [Author](#author)
 
 ## Project Overview
-
-<<<<<<< HEAD
-GOSA_Auto aims to give modern automotive garages digital tools to manage their operations, customers and vehicle service information. This landing page provides a professional web presence for the product, introduces visitors to the problem Garage_plus solves, and explains how the platform works through a step-by-step walkthrough.
-=======
 GOSA_Auto aims to provide modern automotive garages with digital tools for managing their operations, customers and vehicle service information.
->>>>>>> c14487424b174ea2d40e43fe2a6a8bafbc077487
+
 
 ## Live Demo
 
@@ -173,11 +169,10 @@ This project is helping me develop practical skills in:
 
 **Leon Kariuki**
 
-<<<<<<< HEAD
-GOSA_Auto — Building smarter tools for modern automotive garages.
-=======
+
+
 GOSA_Auto— Building smarter tools for modern automotive garages.
->>>>>>> c14487424b174ea2d40e43fe2a6a8bafbc077487
+
 
 
 
